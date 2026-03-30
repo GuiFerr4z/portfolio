@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Guilherme Ferraz, desenvolvedor Back-end em formação com foco em Java.">
+    <meta name="author" content="Guilherme Ferraz">
+    <title>Guilherme Rodrigues | Desenvolvedor</title>
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <button id="theme-toggle">Dark/light</button>
+                <h1>Guilherme Ferraz Rodrigues</h1>
+                    <ul>
+                        <li><a href="#aboutme">Sobre</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#project">Projetos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+            </nav>
+        </div>    
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Desenvolvedor <span>Back-end</span> em formação.</h1>
+            <p>Em transição de carreira, focado em Java e desenvolvimento de sistemas.</p>
+            <a href="#project" class="btn">Ver Projetos</a>
+        </div>
+    </section>
+
+    <section id="aboutme" class="hidden">
+        <div class="container">
+            <h2>Sobre mim</h2>
+            <p>Iniciei minha transição de carreira em 2019, enquanto ainda atuava como costureiro na indústria de confecção.
+                Movido pela curiosidade e vontade de crescer profissionalmente, iniciei meus estudos em programação de forma autodidata, 
+                explorando conteúdos online, desenvolvendo autonomia e disciplina no aprendizado.
+            </p>
+            <p>Em 2021, ingressei na Universidade Virtual do Estado de São Paulo (UNIVESP), no curso de Tecnologia da Informação.
+                Essa conquista marcou um ponto de virada na minha jornada, trazendo mais direcionamento e disciplina aos meus estudos.
+            </p>
+            <p>Ainda no segundo semestre da graduação, tive a oportunidade de iniciar meu primeiro estágio 
+                na empresa 
+                    <a href="https://www.tcs.com/who-we-are" target="_blank" rel="noopener noreferrer">
+                        Tata Consultancy Services (TCS)
+                    </a>, onde tive contato com projetos reais e tecnologias do mercado.</p>
+            <p>Desde então, venho direcionando minha carreira para o desenvolvimento Back-end, com foco em Java e no objetivo de me especializar cada vez mais na área.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="hidden">
+        <div class="container">
+            <h2>Habilidades</h2>
+            
+            <div class="skills-grid">
+
+                <div class="skills-card">
+                    <img src="assets/icons/server.svg" alt="Back-end" class="icon">
+                    <h3>Back-end</h3>
+                    <ul type="square">
+                        <li>Java</li>
+                        <li>Spring Boot</li>
+                        <li>APIs REST</li>
+                    </ul>
+                </div>   
+
+                <div class="skills-card">
+                    <img src="assets/icons/monitor-play.svg" alt="Front-end" class="icon">
+                    <h3>Front-end</h3>
+                    <ul type="square">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>    
+
+                <div class="skills-card">
+                    <img src="assets/icons/wrench.svg" alt="tools" class="icon">
+                    <h3>Ferramentas</h3>
+                    <ul type="square">
+                        <li>Git / GitHub</li>
+                        <li>Postman</li>
+                        <li>Jira</li>
+                    </ul>
+                </div>  
+
+            </div>
+
+        </div>  
+    </section>
+
+    <section id="project" class="hidden">
+        <div class="container">
+            <h2>Projetos</h2>
+            
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <h3>Portfólio</h3>
+                    <p>Apresentação pessoal visando o profissionalismo fugindo do currículo padrão.</p>
+                    
+                    <div class="techs">
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="project-links">
+                    <a href="#" class="btn">Código</a>
+                    <a href="#" class="btn secondary">Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Sistema de Pedidos</h3>
+                    <p>Aplicação para gerenciamento de pedidos, simulando fluxo de delivery.</p>
+                    <div class="techs">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                    </div>
+
+                    <div class="project-links">
+                    <a href="#" class="btn">Código</a>
+                    <a href="#" class="btn secondary">Demo</a>
+                    </div>        
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="hidden">
+        <div class="container">
+            <h2>Contato</h2>
+
+            <ul>
+                <li>Email: guiferrazrds@gmail.com</li>
+                <li>LinkedIn: 
+                    <a href="https://www.linkedin.com/in/guifrodrigues/" target="_blank" rel="noopener noreferrer">
+                    linkedin.com/guifrodrigues
+                    </a>
+                </li>
+                <li>GitHub: 
+                    <a href="https://github.com/GuiFerr4z" target="_blank" rel="noopener noreferrer">
+                        github.com/GuiFerr4z
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;<span id="anoAtual"></span> Guilherme Rodrigues</p>
+    </footer>
+    
+    <script src="js/script.js" defer></script>
+</body>
+</html>

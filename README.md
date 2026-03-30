@@ -28,9 +28,15 @@ Este projeto foi desenvolvido com o objetivo de consolidar meus conhecimentos em
 
 ---
 
+## 📸 Preview
+
+![Preview do projeto](assets/preview.png)
+
+---
+
 ## 🌐 Acesse o projeto
 
-👉 (link do Vercel quando eu finalizar)
+👉 https://portfolio-gui-rodrigues.vercel.app
 
 ---
 
